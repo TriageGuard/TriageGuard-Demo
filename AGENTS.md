@@ -1,6 +1,6 @@
 # AGENTS.md — ECU Telemetry & CAN Bus Firmware Engineering Rules
 
-Every AI agent and contributor working in `EngineerCoffee/TriageGuard-Demo` MUST follow these invariants:
+Every AI agent and contributor working in `TriageGuard/TriageGuard-Demo` MUST follow these invariants:
 
 1. **Zero Unaligned Pointer Casts (MISRA C:2012 Rule 11.3):**
    - Never cast `uint8_t *` CAN frame buffers directly to `uint32_t *` or struct pointers. Always use `memcpy()` into a stack-aligned destination variable.
