@@ -1,6 +1,6 @@
-# 🛡️ TriageGuard Live Showcase (`EngineerCoffee/TriageGuard-Demo`)
+# 🛡️ TriageGuard Live Showcase
 
-Welcome to the interactive showcase repository for **[TriageGuard](https://triageguard.engineer.coffee)** — an autonomous, event-driven CI/CD Triage and Rollback Guardrails service built by **Engineer.Coffee**.
+Welcome to the interactive showcase repository for **[TriageGuard](https://triageguard.dev)** — an autonomous, event-driven CI/CD Triage and Rollback Guardrails service.
 
 👉 **Explore the 5 Open Pull Requests to see `triageguard[bot]` in action:**
 
@@ -16,10 +16,10 @@ Welcome to the interactive showcase repository for **[TriageGuard](https://triag
 
 ## 🔗 Live Production Endpoints
 
-- **Product & Architecture Landing Page:** [https://triageguard.engineer.coffee](https://triageguard.engineer.coffee)
-- **Customer Onboarding Guide:** [https://triageguard.engineer.coffee/welcome](https://triageguard.engineer.coffee/welcome)
-- **Executive ROI & Guardrails Dashboard:** [https://triageguard.engineer.coffee/dashboard](https://triageguard.engineer.coffee/dashboard)
-- **Native MCP Server (JSON-RPC 2.0):** [https://triageguard.engineer.coffee/mcp](https://triageguard.engineer.coffee/mcp)
-- **Google A2A Agent Card:** [https://triageguard.engineer.coffee/.well-known/agent.json](https://triageguard.engineer.coffee/.well-known/agent.json)
-- **`llms.txt` Specification:** [https://triageguard.engineer.coffee/llms.txt](https://triageguard.engineer.coffee/llms.txt)
+- **Product & Architecture Landing Page:** [https://triageguard.dev](https://triageguard.dev)
+- **Customer Onboarding Guide:** [https://triageguard.dev/welcome](https://triageguard.dev/welcome)
+- **Executive ROI & Guardrails Dashboard:** [https://triageguard.dev/dashboard](https://triageguard.dev/dashboard)
+- **Native MCP Server (JSON-RPC 2.0):** [https://triageguard.dev/mcp](https://triageguard.dev/mcp)
+- **Google A2A Agent Card:** [https://triageguard.dev/.well-known/agent.json](https://triageguard.dev/.well-known/agent.json)
+- **`llms.txt` Specification:** [https://triageguard.dev/llms.txt](https://triageguard.dev/llms.txt)
 - **Install on GitHub:** [https://github.com/apps/triageguard/installations/new](https://github.com/apps/triageguard/installations/new)
