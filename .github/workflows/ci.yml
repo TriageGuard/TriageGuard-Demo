@@ -1,0 +1,15 @@
+name: Firmware CI
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compile CAN bus driver
+        run: gcc -std=c11 -Wall -Wextra -Werror -c src/can_bus.c -o /tmp/can_bus.o
