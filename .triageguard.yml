@@ -1,30 +1,28 @@
-# Reference zero-secret OIDC MCP configuration for external CI providers.
-# GitHub Actions works out of the box without any MCP entry.
-# Replace `mcp.acme.example` with your organization's OIDC-authenticated MCP gateway.
+# Temporary live demo tunnel
 mcp_servers:
   jenkins:
-    url: https://mcp.acme.example/jenkins/mcp
+    url: https://opponents-biotechnology-lighter-miracle.trycloudflare.com/mcp
     ci_source: jenkins
     auth_mode: oidc
     capabilities:
       get_failure_diagnostics: get_build_failure_cause
       rerun_build: trigger_rebuild
   circleci:
-    url: https://mcp.acme.example/circleci/mcp
+    url: https://opponents-biotechnology-lighter-miracle.trycloudflare.com/mcp/circleci
     ci_source: circleci
     auth_mode: oidc
     capabilities:
       get_failure_diagnostics: get_job_failure_cause
       rerun_build: rerun_workflow
   buildkite:
-    url: https://mcp.acme.example/buildkite/mcp
+    url: https://opponents-biotechnology-lighter-miracle.trycloudflare.com/mcp/buildkite
     ci_source: buildkite
     auth_mode: oidc
     capabilities:
       get_failure_diagnostics: get_build_failure_cause
       rerun_build: rebuild_build
   azure_devops:
-    url: https://mcp.acme.example/azure_devops/mcp
+    url: https://opponents-biotechnology-lighter-miracle.trycloudflare.com/mcp/azure_devops
     ci_source: azure_devops
     auth_mode: oidc
     capabilities:
